@@ -1,0 +1,13 @@
+package constants
+
+const (
+	STATUS_LOAN_PAYMENT_PAID       = "Paid"
+	STATUS_LOAN_PAYMENT_NOT_PAID   = "Not Paid"
+	STATUS_CUSTOMER_ACTIVE_LOAN    = "Active Loan"
+	STATUS_CUSTOMER_LOAN_DONE_PAID = "Done Paid"
+)
+
+const (
+	REQ_STATUS_CUSTOMER_LOAN_OUTSTANDING = "Outstanding"
+	REQ_STATUS_CUSTOMER_LOAN_DELINQUENT  = "Delinquent"
+)
